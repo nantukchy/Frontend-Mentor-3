@@ -107,3 +107,28 @@ button{
         border-radius:  0 0 10px 10px;
     }
 }
+@media only screen and (max-width: 414px) {
+    .container{
+     min-width: 100vw;
+     margin: 0 auto;
+    }
+     .cards{
+         margin-top: 50px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+        
+     }
+     .card{
+         min-width: 90vw;
+         margin: 0;
+ 
+     }
+    
+     .card1{
+         border-radius:  10px 10px 0 0px;
+     }
+     .card3{
+         border-radius:  0 0 10px 10px;
+     }
+ }
